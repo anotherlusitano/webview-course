@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              _links.map((link) => _urlbutton(context, link)).toList(),
+              _links.map((link) => _urlButton(context, link)).toList(),
             ],
           ),
         ),
